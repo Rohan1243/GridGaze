@@ -46,7 +46,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(), // Cleans the dist folder before the build
     new HtmlWebpackPlugin({
-      template: './index.html',
+      template: 'index.html',
     }), // Generates HTML file along with the other files
   ],
 };
